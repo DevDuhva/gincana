@@ -18,8 +18,7 @@ body, html{
                         'footer footer'; 
 }
 header{
-    background-color: rgb(178, 0, 0);
-    font-family: 'Roboto', sans-serif;
+    background-color: rgb(178, 0, 0);  
     font-size: 9pt;
     font-style: normal;
     border-spacing: 2px;
@@ -39,9 +38,17 @@ img{
     margin-left: 5px;
 }
 main{
-    vertical-align: top;
-    background-image: url(Resources/Fundo_Branco_Degrade.jpg);
-    grid-area: main;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ffffff56;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 2%;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-top: 50px;
+    margin-right: 10%;
 }
 footer{
     background-color: rgb(1, 58, 70);
@@ -57,24 +64,8 @@ footer{
 .etec{
     font-size: 40px;
 }
-table{
-    margin: 0 auto;
-    padding: 0;
+h1{
+    align-items: center;
     text-align: center;
-}
-main{
-    margin: 0 auto;
-    padding: 0;
-    background-color: #fff;
-    width: 25%;
-    height: 50%;
-    margin: auto;
-    padding: 2%;
-    border-radius: 20px;
-    margin-top: 10%;
-    margin-top: 50px;
-    margin-right: 35%;
-}
-table{
-    border: 1px solid;
+    margin-top: 20%;
 }
