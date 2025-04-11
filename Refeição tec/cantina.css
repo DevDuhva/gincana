@@ -3,6 +3,7 @@ body, html{
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .conteudo{
@@ -41,6 +42,17 @@ main{
     vertical-align: top;
     background-image: url(Resources/Fundo_Branco_Degrade.jpg);
     grid-area: main;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+    width: 25%;
+    height: 50%;
+    margin: auto;
+    padding: 2%;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-top: 50px;
+    margin-right: 35%;
 }
 footer{
     background-color: rgb(1, 58, 70);
@@ -60,4 +72,7 @@ table{
     margin: 0 auto;
     padding: 0;
     text-align: center;
+}
+table{
+    border: 1px solid;
 }
