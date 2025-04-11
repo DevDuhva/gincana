@@ -3,7 +3,7 @@ body, html{
     margin: 0;
     padding: 0;
     height: 100%;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 .conteudo{
@@ -19,7 +19,6 @@ body, html{
 }
 header{
     background-color: rgb(178, 0, 0);
-    font-family: 'Roboto', sans-serif;
     font-size: 9pt;
     font-style: normal;
     border-spacing: 2px;
@@ -57,8 +56,31 @@ footer{
 .etec{
     font-size: 40px;
 }
-table{
+.cardapio{
     margin: 0 auto;
     padding: 0;
+    background-color: #fff;
+    width: 25%;
+    height: 50%;
+    margin: auto;
+    padding: 2%;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+h1{
     text-align: center;
+    font-size: 30px;
+}
+.comida{
+    margin-top: 10%;
+ 
+}
+.arroz{
+    background-color: #f0f0f0;
+    
 }
